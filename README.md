@@ -1,6 +1,6 @@
 # mad9013-exercise1
 
-This webiste is buildt for exercise 1 in my Cross-Platform Web Design course in college.
+This webiste is built for exercise 1 in my _Cross-Platform Web Design_ course in college.
 
 **LINK BELOW**
 https://carm0079.github.io/mad9013-exercise1/
