@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Page</title>
+  <style>
+    *,
+    html {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    header {
+      background-color: lightgrey;
+      margin: 0;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: row;
+    }
+
+    #logo {
+      font-family: 'Courier New', Courier, monospace;
+      margin-left: 10px;
+    }
+
+    nav ol {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .block {
+      margin-top: 10px;
+      margin-left: 30px;
+      padding-left: 10px;
+      border-left: 1px solid black;
+    }
+
+    nav ol li {
+      display: flex;
+
+      margin-left: 10px;
+      padding-left: 10px;
+      border-left: 1px solid black;
+      font-weight: bold;
+    }
+
+    nav ol li:last-child {
+      margin-right: 10px;
+      padding-right: 10px;
+      border-right: 1px solid black;
+    }
+
+    nav ol li a:visited,
+    nav ol li a:link {
+      color: black;
+      text-decoration: none;
+    }
+
+    nav ol li a:hover {
+      color: grey;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1 id="logo">MyPage Inc.</h1>
+      <ol>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">More</a></li>
+      </ol>
+    </nav>
+  </header>
+  <main>
+    <div class="block">
+      <h1>Page Article</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab itaque beatae eveniet exercitationem eligendi nulla
+        fugit. Vero, sunt voluptate excepturi incidunt eveniet quis voluptatibus vitae voluptates neque suscipit unde
+        porro. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto sit provident nobis nemo impedit
+        iusto totam officia explicabo non aut, a consequatur, quis quam voluptatum? Eveniet consectetur possimus
+        quibusdam amet?</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod doloremque blanditiis eum exercitationem
+        repellat
+        eos, fuga voluptas id quaerat facilis ducimus ipsam ab explicabo libero dicta nesciunt temporibus fugiat
+        inventore!</p>
+    </div>
+    <div class="block">
+      <h1>Page Article</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab itaque beatae eveniet exercitationem eligendi nulla
+        fugit. Vero, sunt voluptate excepturi incidunt eveniet quis voluptatibus vitae voluptates neque suscipit unde
+        porro.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod doloremque blanditiis eum exercitationem
+        repellat
+        eos, fuga voluptas id quaerat facilis ducimus ipsam ab explicabo libero dicta nesciunt temporibus fugiat
+        inventore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis corrupti commodi, doloremque
+        dolor veniam quia aspernatur recusandae eaque? Nemo porro minima inventore molestias expedita possimus quaerat
+        vero, obcaecati deserunt.</p>
+    </div>
+  </main>
+</body>
+
+</html>
